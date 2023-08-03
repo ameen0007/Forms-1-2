@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main-container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/020/948/498/original/purple-wave-lines-on-black-background-fluid-abstract-background-suitable-for-landng-page-and-computer-desktop-wallpaper-vector.jpg);
+  display: flex;
+justify-content: space-around;
+  align-items: center;
+}
+.first-container{
+   width: 450px;
+    background-color:  rgb(255, 255, 255);
+   margin-left: 50px;
+   border-radius: 15px;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   padding: 30px;
+}
+.second-container{
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 30px;
+}
+.first-container h1{
+  font-family:sans-serif;
+  font-size: 35px;
+}
+.second-container h1{
+  font-family:sans-serif;
+  font-size: 35px;
+}
+
+
+   /* ----------- .first-container ---------------- */
+
+
+.first-container form{
+  padding-top: 20px;
+}
+.typing-input{
+  width: 100%;
+  margin-bottom: 12px;
+  height:35px;
+  margin-top: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: none;
+  border-bottom: 3px solid rgb(95, 93, 93);
+  outline: none;
+  padding: 7px;
+  font-family: sans-serif;
+}
+.typing-label{
+  font-size: 17px;
+  font-weight: 700;
+}
+.radio{
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size:17px ;
+}
+.checkbox-span{
+  font-size: 17px;
+  font-weight: 700;
+}
+.date{
+  width: 170px;
+  height: 27px;
+  margin-top: 17px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 113px;
+}
+.maincountry{
+  margin-left: 30px;
+  height: 27px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-top: 17px;
+  margin-left: 70px;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  background-color:rgb(228, 111, 228); ;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+}
+.btn:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+h3{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.php{
+  margin-left: 10px;
+}
+.danger{
+  color: red;
+  margin-top: -8px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.danger1{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: red;
+  font-family: sans-serif;
+}
+.success{
+  color: rgb(43, 255, 0);
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.notsuccess{
+  color: red;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 800;
+  font-family: sans-serif;
+}
